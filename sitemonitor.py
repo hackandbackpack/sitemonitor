@@ -60,8 +60,8 @@ def monitor(websites, config, stop_event):
                 print(f"Error while accessing {url}: {e}")
                 continue
 
-            soup = BeautifulSoup(response.content, "html.parser")
-            current_hash = hashlib.md5(soup.prettify().encode()).hexdigest()
+            content = response.text
+            current_hash = hashlib.md5(content.encode()).hexdigest()
 
             if current_hash != data['hash']:
                 eastern = pytz.timezone('US/Eastern')
