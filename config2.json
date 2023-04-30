@@ -1,0 +1,20 @@
+{
+  "websites": [
+    {
+      "url": "https://testurl.com",
+      "message": "Test Url Notification",
+      "last_content": "",
+    },
+    {
+      "url": "https://fakeurl.com",
+      "message": "Fake Url Notification",
+      "last_content": "",
+    }
+  ],
+  "twilio": {
+    "account_sid": "XXXXXXXXX",
+    "auth_token": "XXXXXXXXXX",
+    "from_phone": "+12345678",
+    "to_phone": "+12345678"
+  }
+}
