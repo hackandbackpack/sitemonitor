@@ -1,5 +1,0 @@
-twilio_account_sid=your_twilio_account_sid
-twilio_auth_token=your_twilio_auth_token
-twilio_phone_number=+1234567890
-destination_phone_number=+0987654321
-websites=https://example1.com,Custom alert for example1;https://example2.com,Custom alert for example2
